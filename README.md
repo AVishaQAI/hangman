@@ -27,10 +27,11 @@ After starting the application, the game will randomly select a word from a pred
 - **Starting the Game**: Execute the script using a Python interpreter.
 - **Playing the Game**: Enter a single letter when prompted and receive feedback on your guess.
 - **End Game Conditions**: The game ends when either the word is completely guessed or the number of lives reaches zero.
+- **Adding words**: you can add words to the word bank in the varibile word_list. This will make the game more challening and fun!
 
 ## File Structure
 
-- `hangman.py`: The main Python script containing the Hangman class and game logic.
+- `milestone_5.py`: The main Python script containing the Hangman class and game logic.
 
 ## License
 
