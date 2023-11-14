@@ -1,12 +1,37 @@
-# Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+# Hangman Game
 
-<<<<<<< HEAD
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+## Table of Contents
 
-Milestone_2.py contans the first milestone made to get a letter input from the user
-=======
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+1. [Project Description](#project-description)
+2. [Installation Instructions](#installation-instructions)
+3. [Usage Instructions](#usage-instructions)
+4. [File Structure](#file-structure)
+5. [License](#license)
 
-milestone_3.py is code to take an input and check if the output is a letter and if its in the words to guess
->>>>>>> 17c67e668ceeecf47f5e6c4afeaf81fd341cf251
+## Project Description
+
+This project is a simple implementation of the classic Hangman game in Python. The aim is to provide a command-line interface where users can guess letters of a randomly selected word. Through developing this project, I have gained a deeper understanding of Python basics, especially in terms of class-based structures and string manipulation.
+
+## Installation Instructions
+
+To run the Hangman game, you will need a Python interpreter (version 3.x is recommended). No additional dependencies are required as the game utilizes only standard Python libraries.
+
+1. **Prerequisite**: Ensure Python 3.x is installed on your machine.
+2. **Download**: Clone or download the source code from this repository.
+3. **Execution**: Run the script using Python.
+
+## Usage Instructions
+
+After starting the application, the game will randomly select a word from a predefined list. The player is then prompted to guess letters one at a time.
+
+- **Starting the Game**: Execute the script using a Python interpreter.
+- **Playing the Game**: Enter a single letter when prompted and receive feedback on your guess.
+- **End Game Conditions**: The game ends when either the word is completely guessed or the number of lives reaches zero.
+
+## File Structure
+
+- `hangman.py`: The main Python script containing the Hangman class and game logic.
+
+## License
+
+This project is open-sourced under the MIT License. See the LICENSE file in this repository for more details.
